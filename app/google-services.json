@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "371811406238",
+    "project_id": "procorgolf-auth",
+    "storage_bucket": "procorgolf-auth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371811406238:android:4c64c2561ec6d20a34868f",
+        "android_client_info": {
+          "package_name": "com.example.procorgolf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371811406238-sg4fgdjemc9g1rj55b8qdm1f6c8qbt2m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACGB0FixRCu3pC30nZuoLXeMAiOP8vW4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "371811406238-sg4fgdjemc9g1rj55b8qdm1f6c8qbt2m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371811406238:android:8a17d75135e57b7d34868f",
+        "android_client_info": {
+          "package_name": "com.example.procorgolfremaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371811406238-sg4fgdjemc9g1rj55b8qdm1f6c8qbt2m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACGB0FixRCu3pC30nZuoLXeMAiOP8vW4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "371811406238-sg4fgdjemc9g1rj55b8qdm1f6c8qbt2m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

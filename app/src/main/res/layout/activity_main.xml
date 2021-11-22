@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="640dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-100dp"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/et_texto_filtro"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/custom_edit_text_filtro"
+                android:hint="@string/buscar"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp" />
+
+            <Button
+                android:id="@+id/btn_filtro"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="-5dp"
+                android:layout_marginTop="48dp"
+                android:background="@drawable/custon_button_login"
+                app:backgroundTint="@null" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-239dp"
+                android:layout_marginTop="130dp"
+                android:fontFamily="@font/helvetica"
+                android:text="@string/filtros"
+                android:textColor="#8E8F8F"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_nprueba"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="-200dp"
+                android:layout_marginTop="215dp"
+                android:background="@drawable/custom_imagebg"
+                app:backgroundTint="@null"
+                />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="226dp"
+                android:fontFamily="@font/helveticalight"
+                android:text="@string/n_de_prueba"
+                android:textColor="#8C8D8D"
+                android:textSize="30sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="-280dp"
+                android:layout_marginTop="300dp"
+                android:layout_marginRight="100dp"
+                android:background="#CBCCCC" />
+
+            <Button
+                android:id="@+id/btn_positivos"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="-500dp"
+                android:layout_marginTop="330dp"
+                android:background="@drawable/custom_imagebg"
+                app:backgroundTint="@null" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="338dp"
+                android:fontFamily="@font/helveticalight"
+                android:text="@string/positivo"
+                android:textColor="#8C8D8D"
+                android:textSize="30sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="-280dp"
+                android:layout_marginTop="410dp"
+                android:layout_marginRight="100dp"
+                android:background="#CBCCCC" />
+
+            <Button
+                android:id="@+id/btn_negativos"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="-500dp"
+                android:layout_marginTop="435dp"
+                android:background="@drawable/custom_imagebg"
+                app:backgroundTint="@null" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="447dp"
+                android:fontFamily="@font/helveticalight"
+                android:text="@string/negativo"
+                android:textColor="#8C8D8D"
+                android:textSize="30sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="-280dp"
+                android:layout_marginTop="515dp"
+                android:layout_marginRight="100dp"
+                android:background="#CBCCCC" />
+
+            <Button
+                android:id="@+id/btn_nuevos"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="-500dp"
+                android:layout_marginTop="540dp"
+                android:background="@drawable/custom_imagebg"
+                app:backgroundTint="@null" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="550dp"
+                android:fontFamily="@font/helveticalight"
+                android:text="@string/nuevos"
+                android:textColor="#8C8D8D"
+                android:textSize="30sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="-280dp"
+                android:layout_marginTop="618dp"
+                android:layout_marginRight="100dp"
+                android:background="#CBCCCC" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="640dp"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerviewParticipantes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="44dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

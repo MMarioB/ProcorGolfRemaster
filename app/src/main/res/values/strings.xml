@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ProcorGolfRemaster</string>
+    <string name="bienvenido_a_procor">Bienvenido a PROCOR</string>
+    <string name="logo_procor">logo_procor</string>
+    <string name="email">Email</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="login">Login</string>
+    <string name="ir">Ir</string>
+    <string name="procor">PROCOR</string>
+    <string name="elige_tu_torneo">Elige tu torneo</string>
+    <string name="buscar">Buscar</string>
+    <string name="filtros">FILTROS</string>
+    <string name="n_de_prueba">N de Prueba</string>
+    <string name="positivo">Positivo</string>
+    <string name="negativo">Negativo</string>
+    <string name="nuevos">Nuevos</string>
+    <string name="torneo">Torneo</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="nombre">Nombre</string>
+    <string name="nombre_apellidos">Nombre Apellidos</string>
+    <string name="d_n_i">D.N.I</string>
+    <string name="_123456789a">123456789A</string>
+    <string name="resultado">Resultado</string>
+    <string name="cargo">Cargo</string>
+    <string name="analizar">Analizar</string>
+</resources>

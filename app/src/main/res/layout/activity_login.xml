@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/logo_procor"
+        android:layout_width="328dp"
+        android:layout_height="241dp"
+        android:layout_marginLeft="476dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="476dp"
+        android:adjustViewBounds="false"
+        android:contentDescription="@string/logo_procor"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/ic_logo_02" />
+
+    <EditText
+        android:id="@+id/edEmail"
+        android:layout_width="500dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="390dp"
+        android:layout_marginLeft="476dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginRight="476dp"
+        android:background="@drawable/custom_edit_text"
+        android:drawablePadding="10dp"
+        android:hint="@string/email"
+        android:textColorHint="#8B8C8C"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:fontFamily="@font/helveticalight"
+        android:inputType="textEmailAddress"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/edPassword"
+        android:layout_width="500dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="390dp"
+        android:layout_marginLeft="476dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginRight="476dp"
+        android:background="@drawable/custom_edit_text"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/helveticalight"
+        android:hint="@string/contrase_a"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:paddingRight="25dp"
+        android:textColorHint="#8B8C8C"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="500dp"
+        android:layout_marginTop="520dp"
+        android:background="@drawable/custon_button_login"
+        android:fontFamily="@font/helvetica"
+        android:text="@string/login"
+        android:textColor="#8D8D8D"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null" />
+
+</RelativeLayout>
